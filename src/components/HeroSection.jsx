@@ -35,9 +35,9 @@ const HeroSection = () => {
       >
         <p className="text-neutral-600 max-w-4xl mt-4 md:text-1xl sm:px-2 py-2 lg:m-4 m-5">
           Google Developer Groups (GDG) On Campus is a university-based
-          initiative that empowers students to grow in technology <br />
+          initiative that empowers students to grow in technology 
           through events, workshops, and networking. It provides a platform to
-          learn, collaborate, and innovate <br />
+          learn, collaborate, and innovate 
           with Google's technologies while connecting with a vibrant community
           of developers!
         </p>
