@@ -19,9 +19,9 @@ const NavBar = () => {
 
       <div className="container mx-auto px-4 relative text-sm">
         <div className="flex justify-between items-center">
-            <div className="flex itmes-center flex-shrink-0 ">
+            <div className="flex itmes-center flex-shrink-0   ">
                 <img  className="h-11 w-15 mr-2" src={logo} alt="logo" />
-                <span className='text-lg tracking-tight mt-2 lg:text-xl'>GDG On Campus-GGCT</span>
+                <span className='text-lg tracking-tight  mt-2 lg:text-xl '>GDG On Campus-GGCT</span>
                 
             </div>
             <ul className='hidden lg:flex ml-14 space-x-12'>
@@ -54,10 +54,10 @@ const NavBar = () => {
 
             </div>
 
-            <div className="lg:hidden md:flex flex-col justify-end">
-              <button onClick={toggle}>
+            <div className="hidden md:flex flex-col justify-end">
+              {/* <button onClick={toggle}>
               {mobiletoweropen ? <X/> : <Menu/>}
-              </button>
+              </button> */}
 
             </div>
 

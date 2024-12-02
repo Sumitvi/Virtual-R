@@ -14,6 +14,7 @@ import Marketing from "./pages/Marketing.jsx"
 import Operational from "./pages/Operational.jsx"
 import Outreach from "./pages/Outreach.jsx"
 import PRContent from "./pages/PRContent.jsx"
+import FooterForMobile from './components/FooterForMobile.jsx';
 
 
 const MainPage = () => {
@@ -25,6 +26,7 @@ const MainPage = () => {
       <Team />
       <ContactUs />
       <Footer />
+      <FooterForMobile/>
     </>
   );
 };
